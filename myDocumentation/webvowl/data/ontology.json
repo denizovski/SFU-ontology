@@ -1,0 +1,1516 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.semanticweb.org/SFOT/ontology/", "http://www.semanticweb.org/SFOT/ontology", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "comments" : {
+      "undefined" : "Six Feet Under is an American drama television series created and produced by Alan Ball. It premiered on the premium cable network HBO in the United States on June 3, 2001 and ended on August 21, 2005, spanning five seasons and 63 episodes. The show was produced by Actual Size Films and The Greenblatt/Janollari Studio, and was shot on location in Los Angeles and in Hollywood studios. The show depicts members of the Fisher family, who run their funeral home in Los Angeles, and their friends and lovers. The series traces these characters' lives over the course of five years. The ensemble drama stars Peter Krause, Michael C. Hall, Frances Conroy, Lauren Ambrose, Freddy Rodriguez, Mathew St. Patrick, and Rachel Griffiths as the show's seven central characters."
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "6",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/TvSeries",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TvSeries"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/SixFeetUnder",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "SixFeetUnder"
+      }
+    } ],
+    "subClasses" : [ "2", "3" ],
+    "comment" : {
+      "en" : "Television series: A group of programs created or adapted for television broadcast with a common series title."
+    },
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/Place",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Place"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/Fisher&SonsFuneralHome",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "comment" : {
+        "en" : "It is the name of the funeral home before partnership with Federico Diaz."
+      },
+      "labels" : {
+        "IRI-based" : "Fisher&SonsFuneralHome"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/Fisher&DiazFuneralHome",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "comment" : {
+        "en" : "It is the name of the funeral home that went on to re-name Federico Diaz after working for so many years that he became a partner in the funeral home business."
+      },
+      "labels" : {
+        "IRI-based" : "Fisher&DiazFuneralHome"
+      }
+    } ],
+    "comment" : {
+      "en" : "Fisher family, runs their funeral home in Los Angeles."
+    },
+    "id" : "4",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/Genre",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Genre"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/Drama",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "annotations" : {
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/page/Category:Drama_genres",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Drama"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/BlackHumor",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "annotations" : {
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/page/Black_comedy",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "Dark comedy (formally referred to as black comedy) is a comic style that makes light of themes that are generally considered serious or taboo. Black comedy corresponds to the earlier concept of gallows humor. Black comedy is often controversial due to its subject matter."
+      },
+      "labels" : {
+        "IRI-based" : "BlackHumor"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The genre of the series."
+    },
+    "id" : "2",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#Composer",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Composer"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/BruceEricKaplan",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "BruceEricKaplan"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/RichardMarvin",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "RichardMarvin"
+      }
+    } ],
+    "comment" : {
+      "en" : "Especially a person who wrote the music for Six Feet Under as a professional profession."
+    },
+    "id" : "11",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "http://dbpedia.org/page/Six_Feet_Under_(TV_series)",
+        "type" : "label"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "http://www.hbo.com/six-feet-under",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SixFeetUnder"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/SixFeetUnder",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "SixFeetUnder"
+      }
+    } ],
+    "subClasses" : [ "4", "8" ],
+    "comment" : {
+      "en" : "Six Feet Under is an American drama television series created and produced by Alan Ball. It premiered on the premium cable network HBO in the United States on June 3, 2001 and ended on August 21, 2005, spanning five seasons and 63 episodes. The show was produced by Actual Size Films and The Greenblatt/Janollari Studio, and was shot on location in Los Angeles and in Hollywood studios. The show depicts members of the Fisher family, who run their funeral home in Los Angeles, and their friends and lovers. The series traces these characters' lives over the course of five years. The ensemble drama stars Peter Krause, Michael C. Hall, Frances Conroy, Lauren Ambrose, Freddy Rodriguez, Mathew St. Patrick, and Rachel Griffiths as the show's seven central characters. Six Feet Under received widespread critical acclaim, particularly for its writing and acting, and consistently drew high ratings for the HBO network. Regarded by many as one of the greatest TV dramas of all time, it has since been included on TIME magazine's \"All-TIME 100 TV Shows\", as well as Empire magazine's \"50 Greatest TV Shows of All Time\" list. It has also been described as having one of the finest series finales in the history of television. It won numerous awards, including nine Emmy Awards, three Screen Actors Guild Awards, three Golden Globe Awards, and a Peabody Award."
+    },
+    "id" : "3",
+    "superClasses" : [ "0" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "15", "8" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "44"
+  }, {
+    "instances" : 0,
+    "union" : [ "15", "8" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "9",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "52",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "6",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "15", "8" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/ExecutiveProducers",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExecutiveProducers"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/Bruce_Eric_Kaplan",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "annotations" : {
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "en",
+          "value" : "https://en.wikipedia.org/wiki/Bruce_Eric_Kaplan#Six_Feet_Under_episodes",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Kaplan joined the crew of Six Feet Under during the first season in 2001, as a supervising producer. He scripted two episodes of the first season, \"The Foot\" and \"The New Person.\""
+      },
+      "labels" : {
+        "IRI-based" : "Bruce_Eric_Kaplan"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/RickCleveland",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "annotations" : {
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "en",
+          "value" : "https://en.wikipedia.org/wiki/Rick_Cleveland",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Rick Cleveland is an American television writer, playwright, and monologist, best known for writing on the HBO original series Six Feet Under."
+      },
+      "labels" : {
+        "IRI-based" : "RickCleveland"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/AlanPaul",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "annotations" : {
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "en",
+          "value" : "https://en.wikipedia.org/wiki/Alan_Poul",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Alan Mark Poul is an American film and television producer and director. Paul served as executive producer for the HBO original series, Six Feet Under, on which he made his directing debut. He directed four episodes of the series from seasons two through five."
+      },
+      "labels" : {
+        "IRI-based" : "AlanPaul"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/Alan_Ball",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "comment" : {
+        "en" : "Alan Erwin Ball is an American writer, director, and producer for television, film, and theater."
+      },
+      "labels" : {
+        "IRI-based" : "Alan_Ball"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/RobertGreenblatt",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "annotations" : {
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "en",
+          "value" : "https://en.wikipedia.org/wiki/Robert_Greenblatt",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Robert Greenblatt is an American television executive."
+      },
+      "labels" : {
+        "IRI-based" : "RobertGreenblatt"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/David_Janollari",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "annotations" : {
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "en",
+          "value" : "https://www.imdb.com/name/nm0417859/",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "David Janollari executive produced of the series \"SFU\"."
+      },
+      "labels" : {
+        "IRI-based" : "David_Janollari"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Is the person who supervises the creative content and the financial aspects of production of Six Feet Under."
+    },
+    "id" : "37",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "13",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#Creator",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Creator"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/AlanBall",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "annotations" : {
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "en",
+          "value" : "https://en.wikipedia.org/wiki/Alan_Ball_(screenwriter)",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Alan Erwin Ball (born May 13, 1957) is an American writer, director, and producer for television, film, and theater."
+      },
+      "labels" : {
+        "IRI-based" : "AlanBall"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Creator is a person who created and produced Six Feet Under."
+    },
+    "id" : "33",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#Characters",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Characters"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/RuthFisher",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "comment" : {
+        "en" : "Ruth O'Connor Fisher is the widow of Nathaniel Fisher and mother of three."
+      },
+      "labels" : {
+        "IRI-based" : "RuthFisher"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/MaggieSibley",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "MaggieSibley"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/WillaFisherChenowith",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "WillaFisherChenowith"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/DurrellCharlesFisher",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "DurrellCharlesFisher"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/KeithCharles",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "comment" : {
+        "en" : "Keith Charles is a fictional character in the HBO series Six Feet Under."
+      },
+      "labels" : {
+        "IRI-based" : "KeithCharles"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/NateFisher",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "comment" : {
+        "en" : "Nathaniel Samuel \"Nate\" Fisher Jr. is the firstborn of the Fisher siblings."
+      },
+      "labels" : {
+        "IRI-based" : "NateFisher"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/BillyChenowith",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "comment" : {
+        "en" : "Billy Chenowith is a recurring character who is the son of Bernard Chenowith and Margaret Chenowith and the younger brother of Brenda Chenowith."
+      },
+      "labels" : {
+        "IRI-based" : "BillyChenowith"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/FedericoRicoDiaz",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "comment" : {
+        "en" : "Hector Federico Diaz, known by his nickname Rico, is a restorative assistant and later a business partner at the Fisher & Sons Funeral Home."
+      },
+      "labels" : {
+        "IRI-based" : "FedericoRicoDiaz"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/VanessaDiaz",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "comment" : {
+        "en" : "A nurse, a mother and wife of Federico Rico Diaz."
+      },
+      "labels" : {
+        "IRI-based" : "VanessaDiaz"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/MayaFisher",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "MayaFisher"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/DavidFisher",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "comment" : {
+        "en" : "David James Fisher is the second son and middle Fisher child. He is portrayed by Michael C. Hall."
+      },
+      "labels" : {
+        "IRI-based" : "DavidFisher"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/BernardAsaChenowith",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "BernardAsaChenowith"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/NathanielFisher",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "comment" : {
+        "en" : "Nathaniel Samuel Fisher Sr. is the patriarch of the Fisher family and sole proprietor of Fisher & Sons, a private funeral service based in Los Angeles. He is portrayed by Richard Jenkins."
+      },
+      "labels" : {
+        "IRI-based" : "NathanielFisher"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/GeorgeSibley",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "GeorgeSibley"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/BrianSibley",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "BrianSibley"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/LisaKimmelFisher",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "comment" : {
+        "en" : "Lisa Kimmel Fisher (born Lisa Kimmel) was Nate Fisher's first wife and the mother of his eldest daughter Maya."
+      },
+      "labels" : {
+        "IRI-based" : "LisaKimmelFisher"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/BrendaChenowith",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "comment" : {
+        "en" : "Brenda Chenowith (1969-2051) is a main character on the HBO television series Six Feet Under played by Rachel Griffiths."
+      },
+      "labels" : {
+        "IRI-based" : "BrendaChenowith"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/AnthonyCharlesFisher",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "AnthonyCharlesFisher"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/MargaretChenowith",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "MargaretChenowith"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/ClaireFisher",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "comment" : {
+        "en" : "Claire Simone Fisher is the youngest child and only daughter of the Fisher family."
+      },
+      "labels" : {
+        "IRI-based" : "ClaireFisher"
+      }
+    } ],
+    "comment" : {
+      "en" : "Fictional characters, divided into various family members, created by Alan Ball."
+    },
+    "id" : "15",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#Cast",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cast"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/MathewStPatrick",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "MathewStPatrick"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/RichardJenkins",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "RichardJenkins"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/LaurenAmbrose",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "LaurenAmbrose"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/JeremySisto",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "JeremySisto"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/RachelGriffiths",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "RachelGriffiths"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/JoannaCassidy",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "JoannaCassidy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/BronwynTosh",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "BronwynTosh"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/C.J.Sanders",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "C.J.Sanders"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/JamesCromwell",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "JamesCromwell"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/MichaelC.Hall",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "MichaelC.Hall"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/PeterKrause",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "PeterKrause"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/RobertFoxworth",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "RobertFoxworth"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/LiliTaylor",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "LiliTaylor"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/KendréBerry",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "KendréBerry"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/TinaHolmes",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "TinaHolmes"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/FrancesConroy",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "FrancesConroy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/JustinaMachado",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "JustinaMachado"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/FreddyRofriguez",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "FreddyRofriguez"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Is the group of actors who make up a Six Feet Under TV series."
+    },
+    "id" : "21",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#ChannelGroup",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ChannelGroup"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/Hbo",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "Hbo"
+      }
+    } ],
+    "subClasses" : [ "1" ],
+    "comment" : {
+      "undefined" : "Channel grouping is a rule-based grouping of marketing channels. \nThe Hbo channel group undertook the production of the series Six Feet Under."
+    },
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#Hbo",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "http://www.hbo.com/",
+        "type" : "label"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "http://dbpedia.org/page/HBO",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Hbo"
+    },
+    "subClasses" : [ "0" ],
+    "comment" : {
+      "en" : "Home Box Office (HBO) is an American premium cable and satellite television network that is owned by Time Warner through its respective flagship company Home Box Office, Inc. Programming featured on the network consists primarily of theatrically released motion pictures and original television series, along with made-for-cable movies and documentaries, boxing matches, and occasional stand-up comedy and concert specials."
+    },
+    "id" : "1",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/People",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "People"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/MathewStPatrick",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "MathewStPatrick"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/RichardJenkins",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "RichardJenkins"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/LaurenAmbrose",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "LaurenAmbrose"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/JeremySisto",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "JeremySisto"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/RachelGriffiths",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "RachelGriffiths"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/JoannaCassidy",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "JoannaCassidy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/BronwynTosh",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "BronwynTosh"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/C.J.Sanders",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "C.J.Sanders"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/MichaelC.Hall",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "MichaelC.Hall"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/JamesCromwell",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "JamesCromwell"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/PeterKrause",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "PeterKrause"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/RobertFoxworth",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "RobertFoxworth"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/LiliTaylor",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "LiliTaylor"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/TinaHolmes",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "TinaHolmes"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/AlanBall",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "annotations" : {
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "en",
+          "value" : "https://en.wikipedia.org/wiki/Alan_Ball_(screenwriter)",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Alan Erwin Ball (born May 13, 1957) is an American writer, director, and producer for television, film, and theater."
+      },
+      "labels" : {
+        "IRI-based" : "AlanBall"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/KendréBerry",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "KendréBerry"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/FreddyRofriguez",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "FreddyRofriguez"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/JustinaMachado",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "JustinaMachado"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/SFOT/ontology/FrancesConroy",
+      "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+      "labels" : {
+        "IRI-based" : "FrancesConroy"
+      }
+    } ],
+    "subClasses" : [ "33", "37", "15", "21", "11" ],
+    "id" : "8",
+    "superClasses" : [ "3" ]
+  } ],
+  "property" : [ {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#hasBrother",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasBrother"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "functional" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/divorcedIn",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "divorcedIn"
+    },
+    "domain" : "8",
+    "attributes" : [ "datatype" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/isBrotherInLaw",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "isBrotherInLaw"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/bornIn",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "bornIn"
+    },
+    "domain" : "8",
+    "attributes" : [ "datatype" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#isFatherOf",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "isFatherOf"
+    },
+    "domain" : "15",
+    "attributes" : [ "object", "functional" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/isSisterInLaw",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "isSisterInLaw"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#hasDaugter",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasDaugter"
+    },
+    "superproperty" : [ "19" ],
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "18"
+  }, {
+    "range" : "8",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "range" : "8",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "8",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#hasSpouse",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "hasSpouse"
+    },
+    "domain" : "15",
+    "attributes" : [ "object", "functional" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/hasOwner",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasOwner"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/hasMother",
+    "inverse" : "28",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasMother"
+    },
+    "domain" : "8",
+    "attributes" : [ "object", "functional" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/hasCreator",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasCreator"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/numberOfEpisode",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "numberOfEpisode"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "30"
+  }, {
+    "range" : "8",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/hasProduced",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasProduced"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "34"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "8",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#hasProducer",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "hasProducer"
+    },
+    "domain" : "0",
+    "attributes" : [ "object" ],
+    "id" : "38"
+  }, {
+    "range" : "3",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "0",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "42",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "3",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/marriedIn",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "marriedIn"
+    },
+    "domain" : "8",
+    "attributes" : [ "datatype" ],
+    "id" : "45"
+  }, {
+    "range" : "0",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/hasFather",
+    "inverse" : "14",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasFather"
+    },
+    "domain" : "8",
+    "attributes" : [ "object", "functional" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/diedIn",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "diedIn"
+    },
+    "domain" : "8",
+    "attributes" : [ "datatype" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#hasChild",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasChild"
+    },
+    "domain" : "6",
+    "subproperty" : [ "54", "18" ],
+    "attributes" : [ "object", "functional" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#isMotherof",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "isMotherof"
+    },
+    "domain" : "15",
+    "attributes" : [ "object", "functional" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#hasPartner",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasPartner"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "functional" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/hasGrandMother",
+    "inverse" : "58",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasGrandMother"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/isGrandMotherOf",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "isGrandMotherOf"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#hasPlace",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasPlace"
+    },
+    "domain" : "8",
+    "attributes" : [ "object", "functional" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/createdBy",
+    "inverse" : "29",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "createdBy"
+    },
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/releaseDate",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "releaseDate"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#hasSibling",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasSibling"
+    },
+    "domain" : "15",
+    "attributes" : [ "object", "functional" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#hasSon",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasSon"
+    },
+    "superproperty" : [ "19" ],
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#hasSister",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "hasSister"
+    },
+    "domain" : "48",
+    "attributes" : [ "object", "functional" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/isPartnerOf",
+    "inverse" : "56",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "isPartnerOf"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "functional" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/hasReleased",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "hasReleased"
+    },
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/adoptedBy",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "adoptedBy"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "functional" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/numberOfSeason",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "numberOfSeason"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/completionDate",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "completionDate"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#hasGenre",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasGenre"
+    },
+    "domain" : "6",
+    "attributes" : [ "object", "functional" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/#ownerOf",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology/",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "ownerOf"
+    },
+    "domain" : "8",
+    "attributes" : [ "object", "functional" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/producedBy",
+    "inverse" : "38",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "producedBy"
+    },
+    "domain" : "8",
+    "attributes" : [ "object", "functional" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.semanticweb.org/SFOT/ontology/isChildOf",
+    "inverse" : "19",
+    "baseIri" : "http://www.semanticweb.org/SFOT/ontology",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "isChildOf"
+    },
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "72"
+  } ]
+}

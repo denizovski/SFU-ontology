@@ -1,0 +1,989 @@
+[ {
+  "@id" : "_:genid1",
+  "http://www.semanticweb.org/SFOT/ontology/releaseDate" : [ {
+    "@value" : "2001.06.03"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Six Feet Under is an American drama television series created and produced by Alan Ball. It premiered on the premium cable network HBO in the United States on June 3, 2001 and ended on August 21, 2005, spanning five seasons and 63 episodes. The show was produced by Actual Size Films and The Greenblatt/Janollari Studio, and was shot on location in Los Angeles and in Hollywood studios. The show depicts members of the Fisher family, who run their funeral home in Los Angeles, and their friends and lovers. The series traces these characters' lives over the course of five years. The ensemble drama stars Peter Krause, Michael C. Hall, Frances Conroy, Lauren Ambrose, Freddy Rodriguez, Mathew St. Patrick, and Rachel Griffiths as the show's seven central characters."
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#Cast",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Is the group of actors who make up a Six Feet Under TV series."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/People"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#Characters"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#ChannelGroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Channel grouping is a rule-based grouping of marketing channels. \nThe Hbo channel group undertook the production of the series Six Feet Under."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#Characters",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fictional characters, divided into various family members, created by Alan Ball."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/People"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#Composer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Especially a person who wrote the music for Six Feet Under as a professional profession."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/People"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#Creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Creator is a person who created and produced Six Feet Under."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/People"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#Hbo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Home Box Office (HBO) is an American premium cable and satellite television network that is owned by Time Warner through its respective flagship company Home Box Office, Inc. Programming featured on the network consists primarily of theatrically released motion pictures and original television series, along with made-for-cable movies and documentaries, boxing matches, and occasional stand-up comedy and concert specials."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/page/HBO"
+  }, {
+    "@language" : "en",
+    "@value" : "http://www.hbo.com/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#ChannelGroup"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Six Feet Under is an American drama television series created and produced by Alan Ball. It premiered on the premium cable network HBO in the United States on June 3, 2001 and ended on August 21, 2005, spanning five seasons and 63 episodes. The show was produced by Actual Size Films and The Greenblatt/Janollari Studio, and was shot on location in Los Angeles and in Hollywood studios. The show depicts members of the Fisher family, who run their funeral home in Los Angeles, and their friends and lovers. The series traces these characters' lives over the course of five years. The ensemble drama stars Peter Krause, Michael C. Hall, Frances Conroy, Lauren Ambrose, Freddy Rodriguez, Mathew St. Patrick, and Rachel Griffiths as the show's seven central characters. Six Feet Under received widespread critical acclaim, particularly for its writing and acting, and consistently drew high ratings for the HBO network. Regarded by many as one of the greatest TV dramas of all time, it has since been included on TIME magazine's \"All-TIME 100 TV Shows\", as well as Empire magazine's \"50 Greatest TV Shows of All Time\" list. It has also been described as having one of the finest series finales in the history of television. It won numerous awards, including nine Emmy Awards, three Screen Actors Guild Awards, three Golden Globe Awards, and a Peabody Award."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/page/Six_Feet_Under_(TV_series)"
+  }, {
+    "@language" : "en",
+    "@value" : "http://www.hbo.com/six-feet-under"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/TvSeries"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#hasBrother",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#hasChild",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#hasDaugter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#hasChild"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#hasGenre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#hasPartner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#hasPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/People"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#hasProducer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/TvSeries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/People"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#hasSibling",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#Characters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#Characters"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#hasSister",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/People"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#Characters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/People"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#Characters"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#hasSon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#hasChild"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#hasSpouse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#Characters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/People"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#Characters"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#isFatherOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#Characters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/People"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#isMotherof",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#Characters"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/People"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/#ownerOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/People"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/AlanBall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/People", "http://www.semanticweb.org/SFOT/ontology/#Creator" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Alan Erwin Ball (born May 13, 1957) is an American writer, director, and producer for television, film, and theater."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "https://en.wikipedia.org/wiki/Alan_Ball_(screenwriter)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/AlanPaul",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/ExecutiveProducers" ],
+  "http://www.semanticweb.org/SFOT/ontology/hasProduced" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/SixFeetUnder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Alan Mark Poul is an American film and television producer and director. Paul served as executive producer for the HBO original series, Six Feet Under, on which he made his directing debut. He directed four episodes of the series from seasons two through five."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "https://en.wikipedia.org/wiki/Alan_Poul"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/Alan_Ball",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/ExecutiveProducers" ],
+  "http://www.semanticweb.org/SFOT/ontology/bornIn" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1957"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/hasProduced" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/SixFeetUnder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Alan Erwin Ball is an American writer, director, and producer for television, film, and theater."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/AnthonyCharlesFisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasBrother" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/DurrellCharlesFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/adoptedBy" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/DavidFisher"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/KeithCharles"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/C.J.Sanders"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/BernardAsaChenowith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSpouse" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/MargaretChenowith"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/#isFatherOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/BillyChenowith"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/BrendaChenowith"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/RobertFoxworth"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/BillyChenowith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSibling" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/BrendaChenowith"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/hasFather" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/BernardAsaChenowith"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/hasMother" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/MargaretChenowith"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Billy Chenowith is a recurring character who is the son of Bernard Chenowith and Margaret Chenowith and the younger brother of Brenda Chenowith."
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/JeremySisto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/BlackHumor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/Genre" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Dark comedy (formally referred to as black comedy) is a comic style that makes light of themes that are generally considered serious or taboo. Black comedy corresponds to the earlier concept of gallows humor. Black comedy is often controversial due to its subject matter."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://dbpedia.org/page/Black_comedy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/BrendaChenowith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSibling" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/BillyChenowith"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSpouse" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/NateFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/#isMotherof" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/WillaFisherChenowith"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Brenda Chenowith (1969-2051) is a main character on the HBO television series Six Feet Under played by Rachel Griffiths."
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/RachelGriffiths"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/BrianSibley",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSibling" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/MaggieSibley"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/hasFather" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/GeorgeSibley"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/BronwynTosh",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/People", "http://www.semanticweb.org/SFOT/ontology/#Cast" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/MayaFisher"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/BruceEricKaplan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Composer" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/Bruce_Eric_Kaplan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/ExecutiveProducers" ],
+  "http://www.semanticweb.org/SFOT/ontology/hasProduced" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/SixFeetUnder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Kaplan joined the crew of Six Feet Under during the first season in 2001, as a supervising producer. He scripted two episodes of the first season, \"The Foot\" and \"The New Person.\""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "https://en.wikipedia.org/wiki/Bruce_Eric_Kaplan#Six_Feet_Under_episodes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/C.J.Sanders",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/People", "http://www.semanticweb.org/SFOT/ontology/#Cast" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/ClaireFisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasBrother" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/DavidFisher"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/NateFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/hasFather" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/NathanielFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/hasMother" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/RuthFisher"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Claire Simone Fisher is the youngest child and only daughter of the Fisher family."
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/LaurenAmbrose"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/DavidFisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasBrother" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/NateFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasChild" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/AnthonyCharlesFisher"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/DurrellCharlesFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasPartner" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/FedericoRicoDiaz"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSister" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/ClaireFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSpouse" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/KeithCharles"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/hasFather" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/NathanielFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/hasMother" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/RuthFisher"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "David James Fisher is the second son and middle Fisher child. He is portrayed by Michael C. Hall."
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/MichaelC.Hall"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/David_Janollari",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/ExecutiveProducers" ],
+  "http://www.semanticweb.org/SFOT/ontology/hasProduced" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/SixFeetUnder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "David Janollari executive produced of the series \"SFU\"."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "https://www.imdb.com/name/nm0417859/"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/Drama",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/Genre" ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://dbpedia.org/page/Category:Drama_genres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/DurrellCharlesFisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasBrother" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/AnthonyCharlesFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/adoptedBy" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/DavidFisher"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/KeithCharles"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/KendréBerry"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/ExecutiveProducers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Is the person who supervises the creative content and the financial aspects of production of Six Feet Under."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/People"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/FedericoRicoDiaz",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSpouse" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/VanessaDiaz"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/isPartnerOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/Fisher&DiazFuneralHome"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Hector Federico Diaz, known by his nickname Rico, is a restorative assistant and later a business partner at the Fisher & Sons Funeral Home."
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/FreddyRofriguez"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/Fisher&DiazFuneralHome",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/Place" ],
+  "http://www.semanticweb.org/SFOT/ontology/hasOwner" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/DavidFisher"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/FedericoRicoDiaz"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/NateFisher"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is the name of the funeral home that went on to re-name Federico Diaz after working for so many years that he became a partner in the funeral home business."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/Fisher&SonsFuneralHome",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/Place" ],
+  "http://www.semanticweb.org/SFOT/ontology/hasOwner" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/DavidFisher"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/NateFisher"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It is the name of the funeral home before partnership with Federico Diaz."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/FrancesConroy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/People", "http://www.semanticweb.org/SFOT/ontology/#Cast" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/RuthFisher"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/FreddyRofriguez",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/People", "http://www.semanticweb.org/SFOT/ontology/#Cast" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/Genre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The genre of the series."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/TvSeries"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/GeorgeSibley",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasDaugter" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/MaggieSibley"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSon" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/BrianSibley"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSpouse" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/RuthFisher"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/JamesCromwell"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/Hbo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#ChannelGroup" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/JamesCromwell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/People", "http://www.semanticweb.org/SFOT/ontology/#Cast" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/JeremySisto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/People", "http://www.semanticweb.org/SFOT/ontology/#Cast" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/JoannaCassidy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/People", "http://www.semanticweb.org/SFOT/ontology/#Cast" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/MargaretChenowith"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/JustinaMachado",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/People", "http://www.semanticweb.org/SFOT/ontology/#Cast" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/VanessaDiaz"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/KeithCharles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasChild" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/AnthonyCharlesFisher"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/DurrellCharlesFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSpouse" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/DavidFisher"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Keith Charles is a fictional character in the HBO series Six Feet Under."
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/MathewStPatrick"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/KendréBerry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/People", "http://www.semanticweb.org/SFOT/ontology/#Cast" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/LaurenAmbrose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/People", "http://www.semanticweb.org/SFOT/ontology/#Cast" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/LiliTaylor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/People", "http://www.semanticweb.org/SFOT/ontology/#Cast" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/LisaKimmelFisher"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/LisaKimmelFisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSpouse" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/NateFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/#isMotherof" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/MayaFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/bornIn" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1967"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/diedIn" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2003"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Lisa Kimmel Fisher (born Lisa Kimmel) was Nate Fisher's first wife and the mother of his eldest daughter Maya."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/MaggieSibley",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSibling" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/BrianSibley"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/hasFather" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/GeorgeSibley"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/TinaHolmes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/MargaretChenowith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasDaugter" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/BrendaChenowith"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSon" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/BillyChenowith"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSpouse" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/BernardAsaChenowith"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/MathewStPatrick",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/People", "http://www.semanticweb.org/SFOT/ontology/#Cast" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/MayaFisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/hasFather" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/NateFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/hasGrandMother" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/RuthFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/hasMother" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/LisaKimmelFisher"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/MichaelC.Hall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/People", "http://www.semanticweb.org/SFOT/ontology/#Cast" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/NateFisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasBrother" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/DavidFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasPartner" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/FedericoRicoDiaz"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSister" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/ClaireFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSpouse" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/BrendaChenowith"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/LisaKimmelFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/#isFatherOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/MayaFisher"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/WillaFisherChenowith"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/bornIn" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1965"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/diedIn" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2005"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Nathaniel Samuel \"Nate\" Fisher Jr. is the firstborn of the Fisher siblings."
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/PeterKrause"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/NathanielFisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasChild" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/ClaireFisher"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/DavidFisher"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/NateFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSpouse" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/RuthFisher"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Nathaniel Samuel Fisher Sr. is the patriarch of the Fisher family and sole proprietor of Fisher & Sons, a private funeral service based in Los Angeles. He is portrayed by Richard Jenkins."
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/RichardJenkins"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/People",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/PeterKrause",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/People", "http://www.semanticweb.org/SFOT/ontology/#Cast" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/Place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Fisher family, runs their funeral home in Los Angeles."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/RachelGriffiths",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/People", "http://www.semanticweb.org/SFOT/ontology/#Cast" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/RichardJenkins",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/People", "http://www.semanticweb.org/SFOT/ontology/#Cast" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/RichardMarvin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Composer" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/RickCleveland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/ExecutiveProducers" ],
+  "http://www.semanticweb.org/SFOT/ontology/hasProduced" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/SixFeetUnder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Rick Cleveland is an American television writer, playwright, and monologist, best known for writing on the HBO original series Six Feet Under."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "https://en.wikipedia.org/wiki/Rick_Cleveland"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/RobertFoxworth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/People", "http://www.semanticweb.org/SFOT/ontology/#Cast" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/RobertGreenblatt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/ExecutiveProducers" ],
+  "http://www.semanticweb.org/SFOT/ontology/hasProduced" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/SixFeetUnder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Robert Greenblatt is an American television executive."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "https://en.wikipedia.org/wiki/Robert_Greenblatt"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/RuthFisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSpouse" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/GeorgeSibley"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/NathanielFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/#isMotherof" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/ClaireFisher"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/DavidFisher"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/NateFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/isGrandMotherOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/MayaFisher"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Ruth O'Connor Fisher is the widow of Nathaniel Fisher and mother of three."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/SixFeetUnder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/TvSeries", "http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder" ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasGenre" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/BlackHumor"
+  }, {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/Drama"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/completionDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2005"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/createdBy" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/AlanBall"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/numberOfEpisode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "63"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/numberOfSeason" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/producedBy" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/AlanPaul"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/releaseDate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2001"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/TinaHolmes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/People", "http://www.semanticweb.org/SFOT/ontology/#Cast" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/TvSeries",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Television series: A group of programs created or adapted for television broadcast with a common series title."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#Hbo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/VanessaDiaz",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/#hasSpouse" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/FedericoRicoDiaz"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A nurse, a mother and wife of Federico Rico Diaz."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/WillaFisherChenowith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/SFOT/ontology/#Characters" ],
+  "http://www.semanticweb.org/SFOT/ontology/hasFather" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/NateFisher"
+  } ],
+  "http://www.semanticweb.org/SFOT/ontology/hasMother" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/BrendaChenowith"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/adoptedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/bornIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/People"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/completionDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/createdBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/hasCreator"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/diedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/People"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/divorcedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/People"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/hasCreator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/hasFather",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#isFatherOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/hasGrandMother",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/isGrandMotherOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/hasMother",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#isMotherof"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/hasOwner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/hasProduced",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/hasReleased",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/isBrotherInLaw",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/isChildOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/People"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/People"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#hasChild"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/isGrandMotherOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/isPartnerOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#hasPartner"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/isSisterInLaw",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/marriedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/People"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/numberOfEpisode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/numberOfSeason",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/producedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#hasProducer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/SFOT/ontology/releaseDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
+} ]
