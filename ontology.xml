@@ -1,0 +1,1225 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/SFOT/ontology/"
+     xml:base="http://www.semanticweb.org/SFOT/ontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ontology="http://www.semanticweb.org/SFOT/ontology/"
+     xmlns:ontology1="http://www.semanticweb.org/SFOT/ontology/#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/SFOT/ontology/">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/SFOT/ontology/"/>
+        <rdfs:comment>Six Feet Under is an American drama television series created and produced by Alan Ball. It premiered on the premium cable network HBO in the United States on June 3, 2001 and ended on August 21, 2005, spanning five seasons and 63 episodes. The show was produced by Actual Size Films and The Greenblatt/Janollari Studio, and was shot on location in Los Angeles and in Hollywood studios. The show depicts members of the Fisher family, who run their funeral home in Los Angeles, and their friends and lovers. The series traces these characters&apos; lives over the course of five years. The ensemble drama stars Peter Krause, Michael C. Hall, Frances Conroy, Lauren Ambrose, Freddy Rodriguez, Mathew St. Patrick, and Rachel Griffiths as the show&apos;s seven central characters.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/adoptedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/adoptedBy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/createdBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/createdBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/hasCreator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/hasCreator -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/hasCreator"/>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/hasFather -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/hasFather">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/#isFatherOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/hasGrandMother -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/hasGrandMother">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/isGrandMotherOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/hasMother -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/hasMother">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/#isMotherof"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/hasOwner -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/hasOwner"/>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/hasProduced -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/hasProduced"/>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/hasReleased -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/hasReleased">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/isBrotherInLaw -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/isBrotherInLaw"/>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/isChildOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/isChildOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/#hasChild"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/isGrandMotherOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/isGrandMotherOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/isPartnerOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/isPartnerOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/#hasPartner"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/isSisterInLaw -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/isSisterInLaw"/>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/producedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/producedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/#hasProducer"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#hasBrother -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/#hasBrother">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#hasChild -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/#hasChild">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#hasDaugter -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/#hasDaugter">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/#hasChild"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#hasGenre -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/#hasGenre">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#hasPartner -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/#hasPartner">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#hasPlace -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/#hasPlace">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SFOT/ontology/Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#hasProducer -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/#hasProducer">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SFOT/ontology/TvSeries"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#hasSibling -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/#hasSibling">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#hasSister -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/#hasSister">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#hasSon -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/#hasSon">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/#hasChild"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#hasSpouse -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/#hasSpouse">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#isFatherOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/#isFatherOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#isMotherof -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/#isMotherof">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#ownerOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/#ownerOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SFOT/ontology/Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/bornIn -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/bornIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/completionDate -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/completionDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/diedIn -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/diedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/divorcedIn -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/divorcedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/marriedIn -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/marriedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/numberOfEpisode -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/numberOfEpisode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/numberOfSeason -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/numberOfSeason">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/releaseDate -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SFOT/ontology/releaseDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/ExecutiveProducers -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SFOT/ontology/ExecutiveProducers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdfs:comment>Is the person who supervises the creative content and the financial aspects of production of Six Feet Under.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/Genre -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SFOT/ontology/Genre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/TvSeries"/>
+        <rdfs:comment>The genre of the series.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/People -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SFOT/ontology/People">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/Place -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SFOT/ontology/Place">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder"/>
+        <rdfs:comment xml:lang="en">Fisher family, runs their funeral home in Los Angeles.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/TvSeries -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SFOT/ontology/TvSeries">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Hbo"/>
+        <rdfs:comment xml:lang="en">Television series: A group of programs created or adapted for television broadcast with a common series title.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#Cast -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SFOT/ontology/#Cast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#ChannelGroup -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SFOT/ontology/#ChannelGroup">
+        <rdfs:comment>Channel grouping is a rule-based grouping of marketing channels. 
+The Hbo channel group undertook the production of the series Six Feet Under.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#Characters -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SFOT/ontology/#Characters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#Composer -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SFOT/ontology/#Composer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdfs:comment xml:lang="en">Especially a person who wrote the music for Six Feet Under as a professional profession.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#Creator -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SFOT/ontology/#Creator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Creator is a person who created and produced Six Feet Under.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#Hbo -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SFOT/ontology/#Hbo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/#ChannelGroup"/>
+        <rdfs:comment xml:lang="en">Home Box Office (HBO) is an American premium cable and satellite television network that is owned by Time Warner through its respective flagship company Home Box Office, Inc. Programming featured on the network consists primarily of theatrically released motion pictures and original television series, along with made-for-cable movies and documentaries, boxing matches, and occasional stand-up comedy and concert specials.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">http://dbpedia.org/page/HBO</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">http://www.hbo.com/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/TvSeries"/>
+        <rdfs:comment xml:lang="en">Six Feet Under is an American drama television series created and produced by Alan Ball. It premiered on the premium cable network HBO in the United States on June 3, 2001 and ended on August 21, 2005, spanning five seasons and 63 episodes. The show was produced by Actual Size Films and The Greenblatt/Janollari Studio, and was shot on location in Los Angeles and in Hollywood studios. The show depicts members of the Fisher family, who run their funeral home in Los Angeles, and their friends and lovers. The series traces these characters&apos; lives over the course of five years. The ensemble drama stars Peter Krause, Michael C. Hall, Frances Conroy, Lauren Ambrose, Freddy Rodriguez, Mathew St. Patrick, and Rachel Griffiths as the show&apos;s seven central characters. Six Feet Under received widespread critical acclaim, particularly for its writing and acting, and consistently drew high ratings for the HBO network. Regarded by many as one of the greatest TV dramas of all time, it has since been included on TIME magazine&apos;s &quot;All-TIME 100 TV Shows&quot;, as well as Empire magazine&apos;s &quot;50 Greatest TV Shows of All Time&quot; list. It has also been described as having one of the finest series finales in the history of television. It won numerous awards, including nine Emmy Awards, three Screen Actors Guild Awards, three Golden Globe Awards, and a Peabody Award.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">http://dbpedia.org/page/Six_Feet_Under_(TV_series)</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">http://www.hbo.com/six-feet-under</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/AlanBall -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/AlanBall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Creator"/>
+        <rdfs:comment xml:lang="en">Alan Erwin Ball (born May 13, 1957) is an American writer, director, and producer for television, film, and theater.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Alan_Ball_(screenwriter)</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/AlanPaul -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/AlanPaul">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/ExecutiveProducers"/>
+        <hasProduced rdf:resource="http://www.semanticweb.org/SFOT/ontology/SixFeetUnder"/>
+        <rdfs:comment xml:lang="en">Alan Mark Poul is an American film and television producer and director. Paul served as executive producer for the HBO original series, Six Feet Under, on which he made his directing debut. He directed four episodes of the series from seasons two through five.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Alan_Poul</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/Alan_Ball -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/Alan_Ball">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/ExecutiveProducers"/>
+        <hasProduced rdf:resource="http://www.semanticweb.org/SFOT/ontology/SixFeetUnder"/>
+        <bornIn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1957</bornIn>
+        <rdfs:comment xml:lang="en">Alan Erwin Ball is an American writer, director, and producer for television, film, and theater.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/AnthonyCharlesFisher -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/AnthonyCharlesFisher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/SFOT/ontology/C.J.Sanders"/>
+        <adoptedBy rdf:resource="http://www.semanticweb.org/SFOT/ontology/DavidFisher"/>
+        <adoptedBy rdf:resource="http://www.semanticweb.org/SFOT/ontology/KeithCharles"/>
+        <ontology1:hasBrother rdf:resource="http://www.semanticweb.org/SFOT/ontology/DurrellCharlesFisher"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/BernardAsaChenowith -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/BernardAsaChenowith">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/SFOT/ontology/RobertFoxworth"/>
+        <ontology1:hasSpouse rdf:resource="http://www.semanticweb.org/SFOT/ontology/MargaretChenowith"/>
+        <ontology1:isFatherOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/BillyChenowith"/>
+        <ontology1:isFatherOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/BrendaChenowith"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/BillyChenowith -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/BillyChenowith">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/SFOT/ontology/JeremySisto"/>
+        <hasFather rdf:resource="http://www.semanticweb.org/SFOT/ontology/BernardAsaChenowith"/>
+        <hasMother rdf:resource="http://www.semanticweb.org/SFOT/ontology/MargaretChenowith"/>
+        <ontology1:hasSibling rdf:resource="http://www.semanticweb.org/SFOT/ontology/BrendaChenowith"/>
+        <rdfs:comment xml:lang="en">Billy Chenowith is a recurring character who is the son of Bernard Chenowith and Margaret Chenowith and the younger brother of Brenda Chenowith.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/BlackHumor -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/BlackHumor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/Genre"/>
+        <rdfs:comment>Dark comedy (formally referred to as black comedy) is a comic style that makes light of themes that are generally considered serious or taboo. Black comedy corresponds to the earlier concept of gallows humor. Black comedy is often controversial due to its subject matter.</rdfs:comment>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://dbpedia.org/page/Black_comedy</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/BrendaChenowith -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/BrendaChenowith">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/SFOT/ontology/RachelGriffiths"/>
+        <ontology1:hasSibling rdf:resource="http://www.semanticweb.org/SFOT/ontology/BillyChenowith"/>
+        <ontology1:hasSpouse rdf:resource="http://www.semanticweb.org/SFOT/ontology/NateFisher"/>
+        <ontology1:isMotherof rdf:resource="http://www.semanticweb.org/SFOT/ontology/WillaFisherChenowith"/>
+        <rdfs:comment xml:lang="en">Brenda Chenowith (1969-2051) is a main character on the HBO television series Six Feet Under played by Rachel Griffiths.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/BrianSibley -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/BrianSibley">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <hasFather rdf:resource="http://www.semanticweb.org/SFOT/ontology/GeorgeSibley"/>
+        <ontology1:hasSibling rdf:resource="http://www.semanticweb.org/SFOT/ontology/MaggieSibley"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/BronwynTosh -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/BronwynTosh">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Cast"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/SFOT/ontology/MayaFisher"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/BruceEricKaplan -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/BruceEricKaplan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Composer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/Bruce_Eric_Kaplan -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/Bruce_Eric_Kaplan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/ExecutiveProducers"/>
+        <hasProduced rdf:resource="http://www.semanticweb.org/SFOT/ontology/SixFeetUnder"/>
+        <rdfs:comment xml:lang="en">Kaplan joined the crew of Six Feet Under during the first season in 2001, as a supervising producer. He scripted two episodes of the first season, &quot;The Foot&quot; and &quot;The New Person.&quot;</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Bruce_Eric_Kaplan#Six_Feet_Under_episodes</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/C.J.Sanders -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/C.J.Sanders">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Cast"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/ClaireFisher -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/ClaireFisher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/SFOT/ontology/LaurenAmbrose"/>
+        <hasFather rdf:resource="http://www.semanticweb.org/SFOT/ontology/NathanielFisher"/>
+        <hasMother rdf:resource="http://www.semanticweb.org/SFOT/ontology/RuthFisher"/>
+        <ontology1:hasBrother rdf:resource="http://www.semanticweb.org/SFOT/ontology/DavidFisher"/>
+        <ontology1:hasBrother rdf:resource="http://www.semanticweb.org/SFOT/ontology/NateFisher"/>
+        <rdfs:comment xml:lang="en">Claire Simone Fisher is the youngest child and only daughter of the Fisher family.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/DavidFisher -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/DavidFisher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/SFOT/ontology/MichaelC.Hall"/>
+        <hasFather rdf:resource="http://www.semanticweb.org/SFOT/ontology/NathanielFisher"/>
+        <hasMother rdf:resource="http://www.semanticweb.org/SFOT/ontology/RuthFisher"/>
+        <ontology1:hasBrother rdf:resource="http://www.semanticweb.org/SFOT/ontology/NateFisher"/>
+        <ontology1:hasChild rdf:resource="http://www.semanticweb.org/SFOT/ontology/AnthonyCharlesFisher"/>
+        <ontology1:hasChild rdf:resource="http://www.semanticweb.org/SFOT/ontology/DurrellCharlesFisher"/>
+        <ontology1:hasPartner rdf:resource="http://www.semanticweb.org/SFOT/ontology/FedericoRicoDiaz"/>
+        <ontology1:hasSister rdf:resource="http://www.semanticweb.org/SFOT/ontology/ClaireFisher"/>
+        <ontology1:hasSpouse rdf:resource="http://www.semanticweb.org/SFOT/ontology/KeithCharles"/>
+        <rdfs:comment xml:lang="en">David James Fisher is the second son and middle Fisher child. He is portrayed by Michael C. Hall.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/David_Janollari -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/David_Janollari">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/ExecutiveProducers"/>
+        <hasProduced rdf:resource="http://www.semanticweb.org/SFOT/ontology/SixFeetUnder"/>
+        <rdfs:comment xml:lang="en">David Janollari executive produced of the series &quot;SFU&quot;.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://www.imdb.com/name/nm0417859/</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/Drama -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/Drama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/Genre"/>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://dbpedia.org/page/Category:Drama_genres</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/DurrellCharlesFisher -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/DurrellCharlesFisher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/SFOT/ontology/KendréBerry"/>
+        <adoptedBy rdf:resource="http://www.semanticweb.org/SFOT/ontology/DavidFisher"/>
+        <adoptedBy rdf:resource="http://www.semanticweb.org/SFOT/ontology/KeithCharles"/>
+        <ontology1:hasBrother rdf:resource="http://www.semanticweb.org/SFOT/ontology/AnthonyCharlesFisher"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/FedericoRicoDiaz -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/FedericoRicoDiaz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/SFOT/ontology/FreddyRofriguez"/>
+        <isPartnerOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/Fisher&amp;DiazFuneralHome"/>
+        <ontology1:hasSpouse rdf:resource="http://www.semanticweb.org/SFOT/ontology/VanessaDiaz"/>
+        <rdfs:comment xml:lang="en">Hector Federico Diaz, known by his nickname Rico, is a restorative assistant and later a business partner at the Fisher &amp; Sons Funeral Home.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/FrancesConroy -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/FrancesConroy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Cast"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/SFOT/ontology/RuthFisher"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/FreddyRofriguez -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/FreddyRofriguez">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Cast"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/GeorgeSibley -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/GeorgeSibley">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/SFOT/ontology/JamesCromwell"/>
+        <ontology1:hasDaugter rdf:resource="http://www.semanticweb.org/SFOT/ontology/MaggieSibley"/>
+        <ontology1:hasSon rdf:resource="http://www.semanticweb.org/SFOT/ontology/BrianSibley"/>
+        <ontology1:hasSpouse rdf:resource="http://www.semanticweb.org/SFOT/ontology/RuthFisher"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/Hbo -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/Hbo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#ChannelGroup"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/JamesCromwell -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/JamesCromwell">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Cast"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/JeremySisto -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/JeremySisto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Cast"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/JoannaCassidy -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/JoannaCassidy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Cast"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/SFOT/ontology/MargaretChenowith"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/JustinaMachado -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/JustinaMachado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Cast"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/SFOT/ontology/VanessaDiaz"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/KeithCharles -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/KeithCharles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/SFOT/ontology/MathewStPatrick"/>
+        <ontology1:hasChild rdf:resource="http://www.semanticweb.org/SFOT/ontology/AnthonyCharlesFisher"/>
+        <ontology1:hasChild rdf:resource="http://www.semanticweb.org/SFOT/ontology/DurrellCharlesFisher"/>
+        <ontology1:hasSpouse rdf:resource="http://www.semanticweb.org/SFOT/ontology/DavidFisher"/>
+        <rdfs:comment xml:lang="en">Keith Charles is a fictional character in the HBO series Six Feet Under.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/KendréBerry -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/KendréBerry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Cast"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/LaurenAmbrose -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/LaurenAmbrose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Cast"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/LiliTaylor -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/LiliTaylor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Cast"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/SFOT/ontology/LisaKimmelFisher"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/LisaKimmelFisher -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/LisaKimmelFisher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <ontology1:hasSpouse rdf:resource="http://www.semanticweb.org/SFOT/ontology/NateFisher"/>
+        <ontology1:isMotherof rdf:resource="http://www.semanticweb.org/SFOT/ontology/MayaFisher"/>
+        <bornIn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1967</bornIn>
+        <diedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</diedIn>
+        <rdfs:comment xml:lang="en">Lisa Kimmel Fisher (born Lisa Kimmel) was Nate Fisher&apos;s first wife and the mother of his eldest daughter Maya.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/MaggieSibley -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/MaggieSibley">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/SFOT/ontology/TinaHolmes"/>
+        <hasFather rdf:resource="http://www.semanticweb.org/SFOT/ontology/GeorgeSibley"/>
+        <ontology1:hasSibling rdf:resource="http://www.semanticweb.org/SFOT/ontology/BrianSibley"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/MargaretChenowith -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/MargaretChenowith">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <ontology1:hasDaugter rdf:resource="http://www.semanticweb.org/SFOT/ontology/BrendaChenowith"/>
+        <ontology1:hasSon rdf:resource="http://www.semanticweb.org/SFOT/ontology/BillyChenowith"/>
+        <ontology1:hasSpouse rdf:resource="http://www.semanticweb.org/SFOT/ontology/BernardAsaChenowith"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/MathewStPatrick -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/MathewStPatrick">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Cast"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/MayaFisher -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/MayaFisher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <hasFather rdf:resource="http://www.semanticweb.org/SFOT/ontology/NateFisher"/>
+        <hasGrandMother rdf:resource="http://www.semanticweb.org/SFOT/ontology/RuthFisher"/>
+        <hasMother rdf:resource="http://www.semanticweb.org/SFOT/ontology/LisaKimmelFisher"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/MichaelC.Hall -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/MichaelC.Hall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Cast"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/NateFisher -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/NateFisher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/SFOT/ontology/PeterKrause"/>
+        <ontology1:hasBrother rdf:resource="http://www.semanticweb.org/SFOT/ontology/DavidFisher"/>
+        <ontology1:hasPartner rdf:resource="http://www.semanticweb.org/SFOT/ontology/FedericoRicoDiaz"/>
+        <ontology1:hasSister rdf:resource="http://www.semanticweb.org/SFOT/ontology/ClaireFisher"/>
+        <ontology1:hasSpouse rdf:resource="http://www.semanticweb.org/SFOT/ontology/BrendaChenowith"/>
+        <ontology1:hasSpouse rdf:resource="http://www.semanticweb.org/SFOT/ontology/LisaKimmelFisher"/>
+        <ontology1:isFatherOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/MayaFisher"/>
+        <ontology1:isFatherOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/WillaFisherChenowith"/>
+        <bornIn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1965</bornIn>
+        <diedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</diedIn>
+        <rdfs:comment xml:lang="en">Nathaniel Samuel &quot;Nate&quot; Fisher Jr. is the firstborn of the Fisher siblings.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/NathanielFisher -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/NathanielFisher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/SFOT/ontology/RichardJenkins"/>
+        <ontology1:hasChild rdf:resource="http://www.semanticweb.org/SFOT/ontology/ClaireFisher"/>
+        <ontology1:hasChild rdf:resource="http://www.semanticweb.org/SFOT/ontology/DavidFisher"/>
+        <ontology1:hasChild rdf:resource="http://www.semanticweb.org/SFOT/ontology/NateFisher"/>
+        <ontology1:hasSpouse rdf:resource="http://www.semanticweb.org/SFOT/ontology/RuthFisher"/>
+        <rdfs:comment xml:lang="en">Nathaniel Samuel Fisher Sr. is the patriarch of the Fisher family and sole proprietor of Fisher &amp; Sons, a private funeral service based in Los Angeles. He is portrayed by Richard Jenkins.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/PeterKrause -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/PeterKrause">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Cast"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/RachelGriffiths -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/RachelGriffiths">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Cast"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/RichardJenkins -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/RichardJenkins">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Cast"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/RichardMarvin -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/RichardMarvin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Composer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/RickCleveland -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/RickCleveland">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/ExecutiveProducers"/>
+        <hasProduced rdf:resource="http://www.semanticweb.org/SFOT/ontology/SixFeetUnder"/>
+        <rdfs:comment xml:lang="en">Rick Cleveland is an American television writer, playwright, and monologist, best known for writing on the HBO original series Six Feet Under.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Rick_Cleveland</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/RobertFoxworth -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/RobertFoxworth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Cast"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/RobertGreenblatt -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/RobertGreenblatt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/ExecutiveProducers"/>
+        <hasProduced rdf:resource="http://www.semanticweb.org/SFOT/ontology/SixFeetUnder"/>
+        <rdfs:comment xml:lang="en">Robert Greenblatt is an American television executive.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">https://en.wikipedia.org/wiki/Robert_Greenblatt</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/RuthFisher -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/RuthFisher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <isGrandMotherOf rdf:resource="http://www.semanticweb.org/SFOT/ontology/MayaFisher"/>
+        <ontology1:hasSpouse rdf:resource="http://www.semanticweb.org/SFOT/ontology/GeorgeSibley"/>
+        <ontology1:hasSpouse rdf:resource="http://www.semanticweb.org/SFOT/ontology/NathanielFisher"/>
+        <ontology1:isMotherof rdf:resource="http://www.semanticweb.org/SFOT/ontology/ClaireFisher"/>
+        <ontology1:isMotherof rdf:resource="http://www.semanticweb.org/SFOT/ontology/DavidFisher"/>
+        <ontology1:isMotherof rdf:resource="http://www.semanticweb.org/SFOT/ontology/NateFisher"/>
+        <rdfs:comment xml:lang="en">Ruth O&apos;Connor Fisher is the widow of Nathaniel Fisher and mother of three.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/SixFeetUnder -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/SixFeetUnder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/TvSeries"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#SixFeetUnder"/>
+        <createdBy rdf:resource="http://www.semanticweb.org/SFOT/ontology/AlanBall"/>
+        <producedBy rdf:resource="http://www.semanticweb.org/SFOT/ontology/AlanPaul"/>
+        <ontology1:hasGenre rdf:resource="http://www.semanticweb.org/SFOT/ontology/BlackHumor"/>
+        <ontology1:hasGenre rdf:resource="http://www.semanticweb.org/SFOT/ontology/Drama"/>
+        <completionDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</completionDate>
+        <numberOfEpisode rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63</numberOfEpisode>
+        <numberOfSeason rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</numberOfSeason>
+        <releaseDate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</releaseDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/TinaHolmes -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/TinaHolmes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Cast"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/VanessaDiaz -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/VanessaDiaz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <ontology1:hasSpouse rdf:resource="http://www.semanticweb.org/SFOT/ontology/FedericoRicoDiaz"/>
+        <rdfs:comment xml:lang="en">A nurse, a mother and wife of Federico Rico Diaz.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/WillaFisherChenowith -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/WillaFisherChenowith">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+        <hasFather rdf:resource="http://www.semanticweb.org/SFOT/ontology/NateFisher"/>
+        <hasMother rdf:resource="http://www.semanticweb.org/SFOT/ontology/BrendaChenowith"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#Cast -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/#Cast">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/#Characters -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/#Characters"/>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/Fisher&amp;DiazFuneralHome -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/Fisher&amp;DiazFuneralHome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/Place"/>
+        <hasOwner rdf:resource="http://www.semanticweb.org/SFOT/ontology/DavidFisher"/>
+        <hasOwner rdf:resource="http://www.semanticweb.org/SFOT/ontology/FedericoRicoDiaz"/>
+        <hasOwner rdf:resource="http://www.semanticweb.org/SFOT/ontology/NateFisher"/>
+        <rdfs:comment xml:lang="en">It is the name of the funeral home that went on to re-name Federico Diaz after working for so many years that he became a partner in the funeral home business.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SFOT/ontology/Fisher&amp;SonsFuneralHome -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SFOT/ontology/Fisher&amp;SonsFuneralHome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SFOT/ontology/Place"/>
+        <hasOwner rdf:resource="http://www.semanticweb.org/SFOT/ontology/DavidFisher"/>
+        <hasOwner rdf:resource="http://www.semanticweb.org/SFOT/ontology/NateFisher"/>
+        <rdfs:comment xml:lang="en">It is the name of the funeral home before partnership with Federico Diaz.</rdfs:comment>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <releaseDate>2001.06.03</releaseDate>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/SFOT/ontology/#Cast">
+        <rdfs:comment>Is the group of actors who make up a Six Feet Under TV series.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/SFOT/ontology/#Characters">
+        <rdfs:comment xml:lang="en">Fictional characters, divided into various family members, created by Alan Ball.</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+
