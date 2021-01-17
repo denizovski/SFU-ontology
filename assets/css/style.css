@@ -515,6 +515,7 @@ section {
   background: #1E8449;
   bottom: 0;
   left: calc(50% - 100px);
+  line-height:1.5;
 }
 
 .section-title p {
@@ -594,6 +595,7 @@ section {
 .about .content ul {
   list-style: none;
   padding: 0;
+  line-height:1.5;
 }
 
 .about .content ul li {
