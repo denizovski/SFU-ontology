@@ -697,13 +697,13 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background:#2E4053  fixed center center;
+  background:#d4e4ec  fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
 
 .cta h3 {
-  color: #AAB7B8 ;
+  color: #fff ;
   font-size: 28px;
   font-weight: 700;
 }
@@ -732,13 +732,12 @@ section {
   border: 2px solid #000000;
 }
 
-
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
 
 .team {
-  background:#2C3E50 fixed center center;
+  background:#b3d3e3 fixed center center;
   background-size: cover;
   padding: 120px 0;
   background: #fff;
@@ -815,7 +814,7 @@ section {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
-  color: #777777;
+  color: ;
   text-align: center;
 }
 
