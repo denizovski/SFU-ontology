@@ -378,7 +378,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
   font-size: 26px;
   font-weight: 600;
-  font-family:Baskerville;
+  font-family:Verdana;
 }
 
 #hero p {
@@ -387,7 +387,7 @@ h1, h2, h3, h4, h5, h6 {
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #a4829c;
-  font-family:cursive
+  font-family: Verdana;
 }
 
 #hero .carousel-inner .carousel-item {
