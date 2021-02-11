@@ -304,6 +304,86 @@ for word, count in word_counter.most_common(6):
         </tr>
         </table>
 		</div></section>
+	
+
+      <section id="cta1" class="cta1">
+      <div class="container">
+	<div class="text-center">
+           </div>
+    <br><br><br>
+             <h3 style="text-align:center;" id="ontologyvisualization">Sentiment Analysis with Natural Language Tool</h3>
+             <br>
+      <div class="row text-center">
+          <p> Before starting the Sentiment Analysis, I determined 3 themes. Permanency, change and negativity. I quoted sentences with these themes from the series Six Feet Under. Then I determined the negative, neutral, positive values of the sentence with NLTK. Natural Language Toolkit is the basis for a lot of text analysis done in Python. To determine sentiment, I used a tool called VADER.</p>
+          <xmp align="justify">
+import nltk
+nltk.download('vader_lexicon')
+from nltk.sentiment.vader import SentimentIntensityAnalyzer as SIA
+
+sia = SIA()
+sentences = [
+    "Everything ends. It isn't good, it isn't bad. It just is.",
+    "You can't take a picture of this, it's already gone",
+    "Well, we’re all wounded. We carry our wounds around with us through life, and eventually they kill us.
+    Things happen that leave a mark in space, in time. In us.",
+    "How can you grow as an artist, if you don’t have the freedom to fail now and then?"
+]
+for sentence in sentences:
+    print(f'For the sentence "{sentence}"')
+    polarity = sia.polarity_scores(sentence)
+    pos = polarity["pos"]
+    neu = polarity["neu"]
+    neg = polarity["neg"]
+    print(f'The percententage of positive sentiment in :"{sentence}" is : {round(pos*100,2)} %')
+    print(f'The percententage of neutral sentiment in :"{sentence}" is : {round(neu*100,2)} %')
+    print(f'The percententage of negative sentiment in :"{sentence}" is : {round(neg*100,2)} %')
+    print("="*50)
+</xmp>
+</font>
+    </div>
+         </div>
+      </div></section><br><br>
+    
+     <table class="table table-bordered">
+     <h3 class="mb-0"><center>The Percentage of Sentiment Analysis</center></h3><br>
+        <caption><i><center><b></b></center></i></caption>
+        <tr>
+          <th>Sentences</th>
+          <th>Positive Sentiment</th>
+          <th>Neutral Sentiment</th>
+          <th>Negative Sentiment</th>
+        </tr>
+        <tr>
+          
+          <td>"Everything ends. It <b>isn't good</b>, it <b>isn't bad</b>. It just is." </td>
+          <td>20.0 %</td>
+          <td>63.1 %</td>
+          <td>16.9 %</td>
+        </tr>
+        <tr>
+          <td>"You can't take a picture of this, it's already <b>gone"</b></td>
+          <td>0.0 %</td>
+         <td>100.0 %</td>
+          <td>0.0 %</td>
+        </tr>
+        <tr>
+          <td>“Well, we’re all wounded. We carry our wounds around with us through <b>life</b>, and eventually they kill us. Things happen that leave a mark in space, in time. In us.”</td>
+          <td>6.2 %</td>
+          <td>76.5 %</td>
+          <td>17.4 %</td>
+        </tr>
+        <tr>
+          <td>“How can you <br>grow</b> as an artist, if you don’t have the <b>freedom</b> to fail now and then?”.</td>
+          <td>17.7 %</td>
+          <td>67.5 %</td>
+          <td>14.8 %</td>
+        </tr>
+      
+        </table>
+
+      </div>
+    </section><!-- End Cta Section -->
+      
 
       <section id="cta" class="cta">
       <div class="container">
