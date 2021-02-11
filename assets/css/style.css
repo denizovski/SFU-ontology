@@ -703,6 +703,36 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Cta1
+--------------------------------------------------------------*/
+.cta1 {
+  background:#20B2AA fixed center center;
+  background-size: 100% 100%;
+  padding: 0px 0;
+}
+
+.cta1 h3 {
+  color: #FAFAD2 ;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.cta1 p {
+  color: #FFF5EE;
+}
+
+.cta1 xmp {
+color: #FFF5EE;
+ "Courier New", Courier, monospace;
+  padding: 8px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 10px;
+  color: #FDFEFE;
+}
+
+
+/*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
