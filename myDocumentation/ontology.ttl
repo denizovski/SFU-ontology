@@ -744,8 +744,6 @@ The Hbo channel group undertook the production of the series Six Feet Under.""" 
                                                                   rdfs:comment "It is the name of the funeral home before partnership with Federico Diaz."@en .
 
 
-[ :releaseDate "2001.06.03"
-] .
 
 #################################################################
 #    Annotations
