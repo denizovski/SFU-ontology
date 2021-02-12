@@ -178,9 +178,6 @@
                                                     rdfs:range :Place .
 
 
-###  http://www.w3.org/2002/07/owl#topObjectProperty
-owl:topObjectProperty rdf:type owl:FunctionalProperty .
-
 
 #################################################################
 #    Data properties
